@@ -1,3 +1,3 @@
 # multi-k8s
 
-Deployes the multi-docker app to GKE
+Deploys the multi-docker app to GKE
