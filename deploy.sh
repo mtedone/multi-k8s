@@ -1,6 +1,6 @@
-docker built -t alzamabar/multi-client:latest -t alzamabar/multi-client:$SHA -f ./client/Dockerfile ./client 
-docker built -t alzamabar/multi-server:latest -t alzamabar/multi-server:latest:$SHA -f ./server/Dockerfile ./server 
-docker built -t alzamabar/multi-worker:latest -t alzamabar/multi-worker:$SHA -f ./worker/Dockerfile ./worker
+docker build -t alzamabar/multi-client:latest -t alzamabar/multi-client:$SHA -f ./client/Dockerfile ./client 
+docker build -t alzamabar/multi-server:latest -t alzamabar/multi-server:latest:$SHA -f ./server/Dockerfile ./server 
+docker build -t alzamabar/multi-worker:latest -t alzamabar/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push alzamabar/multi-client:latest
 docker push alzamabar/multi-client:$SHA
